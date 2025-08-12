@@ -1,0 +1,43 @@
+{
+  "name": "sagecalculator-api",
+  "version": "1.0.0",
+  "description": "A comprehensive Human Design chart calculator API that generates detailed JSON output with all chart nuances",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "human-design",
+    "astrology",
+    "api",
+    "ephemeris",
+    "bodygraph",
+    "chart-calculator",
+    "sage"
+  ],
+  "author": "SAGE",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "swisseph": "^0.5.17"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sphinxcode/sagecalculator-api.git"
+  },
+  "homepage": "https://github.com/sphinxcode/sagecalculator-api#readme"
+}
